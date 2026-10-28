@@ -1,5 +1,10 @@
 {
   "app": "filmcraft",
   "upstream": "storytold/filmcraft",
-  "name": "NERDS Film"
+  "name": "NERDS Film",
+  "upstream_name": "FilmCraft",
+  "brand": {
+    "docs/brand/artcraft-logo-white.png": "nerds-logo-for-dark-ui.png",
+    "docs/brand/artcraft-logo.png": "nerds-logo-for-light-ui.png"
+  }
 }
