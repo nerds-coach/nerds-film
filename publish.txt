@@ -1,0 +1,9 @@
+total 391736
+-rw-r--r-- 1 runner runner       417 Oct 31 06:22 SHA256SUMS.txt
+-rw-r--r-- 1 runner runner 111704630 Oct 31 06:22 filmcraft-0.15.0-macos-universal.dmg
+-rw-r--r-- 1 runner runner 106867924 Oct 31 06:22 filmcraft-0.15.0-windows-x64-portable.zip
+-rw-r--r-- 1 runner runner  88584192 Oct 31 06:22 filmcraft-0.15.0-windows-x64.msi
+-rw-r--r-- 1 runner runner  93970932 Oct 31 06:22 filmcraft-cli-0.15.0-macos-universal.zip
+7104 /home/runner/work/_temp/notes.md
+https://github.com/nerds-coach/nerds-film/releases/tag/untagged-68233b10bdac0b4c8676
+https://github.com/nerds-coach/nerds-film/releases/tag/v0.15.0
