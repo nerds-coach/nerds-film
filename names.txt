@@ -1,0 +1,146 @@
+NERDS names: 131 changes, 13 kept, 0 warnings
+
+rust  apps/filmcraft-cli/src/main.rs:63  '\\\r\nfilmcraft-cli: drive FilmCraft from the shell (headless engine, or the live app with --' -> '\\\r\nfilmcraft-cli: drive NERDS Film from the shell (headless engine, or the live app with -'
+rust  apps/filmcraft/build.rs:23  'FilmCraft' -> 'NERDS Film'
+rust  apps/filmcraft/build.rs:24  'FilmCraft video editor' -> 'NERDS Film video editor'
+rust  apps/filmcraft/src/app_nap.rs:19  'FilmCraft plays and renders video in the background' -> 'NERDS Film plays and renders video in the background'
+rust  apps/filmcraft/src/control_server.rs:155  'FilmCraft is still starting; send the request again' -> 'NERDS Film is still starting; send the request again'
+kept  apps/filmcraft/src/dev_icon.rs:93  let body = desktop_file_content(crate::APP_ID, "FilmCraft", exe);
+rust  apps/filmcraft/src/main.rs:76  'FilmCraft' -> 'NERDS Film'
+rust  apps/filmcraft/src/main.rs:107  'FilmCraft {} ({} {})' -> 'NERDS Film {} ({} {})'
+kept  apps/filmcraft/src/main.rs:144  let result = eframe::run_native("FilmCraft", options, app_creator(launch.clone(), graphics.clone(), Arc::clone(&app_created)));
+rust  apps/filmcraft/src/main.rs:173  'FilmCraft could not start its window: {e}\\n\\nUpdating the graphics driver usually fixes th' -> 'NERDS Film could not start its window: {e}\\n\\nUpdating the graphics driver usually fixes t'
+rust  apps/filmcraft/src/main.rs:176  'FilmCraft' -> 'NERDS Film'
+rust  apps/filmcraft/src/main.rs:185  'FilmCraft' -> 'NERDS Film'
+rust  apps/filmcraft/src/main.rs:305  'FilmCraft Project' -> 'NERDS Film Project'
+rust  apps/filmcraft/src/main.rs:354  'FilmCraft Project' -> 'NERDS Film Project'
+rust  apps/filmcraft/src/main.rs:490  'FilmCraft Project' -> 'NERDS Film Project'
+rust  apps/filmcraft/src/native_menu.rs:40  'FilmCraft' -> 'NERDS Film'
+rust  apps/filmcraft/src/native_menu.rs:53  'About FilmCraft' -> 'About NERDS Film'
+rust  crates/automation/src/server.rs:593  'screenshot of the live FilmCraft window' -> 'screenshot of the live NERDS Film window'
+rust  crates/automation/src/server.rs:609  'FilmCraft video editor (Premiere Pro-class). Every edit is an engine command: `command_lis' -> 'NERDS Film video editor (Premiere Pro-class). Every edit is an engine command: `command_li'
+rust  crates/captions/src/mcc.rs:556  '// Closed captions written by FilmCraft: SMPTE ST 334-2 caption distribution packets\\n' -> '// Closed captions written by NERDS Film: SMPTE ST 334-2 caption distribution packets\\n'
+kept  crates/captions/src/stl.rs:390  put(&mut gsi, 16, 32, "FilmCraft");
+rust  crates/codecs/src/mpeg.rs:265  '{} video in {} (FilmCraft has no decoder for it)' -> '{} video in {} (NERDS Film has no decoder for it)'
+rust  crates/codecs/src/mpeg.rs:507  '{codec_name} audio in {} (FilmCraft has no decoder for it)' -> '{codec_name} audio in {} (NERDS Film has no decoder for it)'
+rust  crates/codecs/src/mpeg.rs:553  '{codec_name} audio (FilmCraft has no AC-3 decoder yet)' -> '{codec_name} audio (NERDS Film has no AC-3 decoder yet)'
+rust  crates/codecs/src/mxf.rs:281  '{} video in MXF (FilmCraft has no {} decoder)' -> '{} video in MXF (NERDS Film has no {} decoder)'
+rust  crates/codecs/src/video.rs:351  'FilmCraft H.264' -> 'NERDS Film H.264'
+rust  crates/codecs/src/video.rs:464  'FilmCraft HEVC' -> 'NERDS Film HEVC'
+rust  crates/codecs/src/video.rs:592  'FilmCraft VP9' -> 'NERDS Film VP9'
+rust  crates/codecs/src/video.rs:649  'FilmCraft VP8' -> 'NERDS Film VP8'
+rust  crates/codecs/src/video.rs:738  'FilmCraft AV1' -> 'NERDS Film AV1'
+rust  crates/codecs/src/video.rs:793  'FilmCraft ProRes' -> 'NERDS Film ProRes'
+rust  crates/codecs/src/video.rs:859  'FilmCraft APV' -> 'NERDS Film APV'
+rust  crates/codecs/src/video.rs:931  'FilmCraft DNxHD/DNxHR' -> 'NERDS Film DNxHD/DNxHR'
+rust  crates/codecs/src/video.rs:1036  'FilmCraft MPEG-2' -> 'NERDS Film MPEG-2'
+rust  crates/color/src/lut.rs:428  '# written by FilmCraft\\n' -> '# written by NERDS Film\\n'
+rust  crates/dng/src/writer.rs:459  'FilmCraft Synthetic' -> 'NERDS Film Synthetic'
+kept  crates/engine/src/autosave.rs:518  return env("APPDATA").map(|h| h.join("FilmCraft"));
+rust  crates/engine/src/demo.rs:51  'FilmCraft Demo' -> 'NERDS Film Demo'
+rust  crates/engine/src/demo.rs:58  'FilmCraft Demo' -> 'NERDS Film Demo'
+rust  crates/engine/src/graphic_templates.rs:100  "FilmCraft does not open Adobe .mogrt files (or other applications' template packages); it " -> "NERDS Film does not open Adobe .mogrt files (or other applications' template packages); it"
+rust  crates/engine/src/previews.rs:588  'FilmCraft Previews' -> 'NERDS Film Previews'
+rust  crates/engine/src/previews.rs:601  'FilmCraft Previews' -> 'NERDS Film Previews'
+rust  crates/engine/src/project_tools.rs:127  'Selection as FilmCraft Project…' -> 'Selection as NERDS Film Project…'
+rust  crates/engine/src/project_tools.rs:339  "the clip's media has no embedded captions FilmCraft can read (embedded CEA-608/708 caption" -> "the clip's media has no embedded captions NERDS Film can read (embedded CEA-608/708 captio"
+rust  crates/engine/src/project_tools.rs:892  'FilmCraft GPU Acceleration (wgpu)' -> 'NERDS Film GPU Acceleration (wgpu)'
+rust  crates/engine/src/project_tools.rs:893  'FilmCraft Software Only (CPU)' -> 'NERDS Film Software Only (CPU)'
+rust  crates/engine/src/project_tools.rs:1173  '{} has no source settings in FilmCraft. Source settings apply to camera raw formats (R3D, ' -> '{} has no source settings in NERDS Film. Source settings apply to camera raw formats (R3D,'
+rust  crates/engine/src/project_tools.rs:1195  '<?xpacket begin=\\"\\u{feff}\\" id=\\"W5M0MpCehiHzreSzNTczkc9d\\"?>\\n<x:xmpmeta xmlns:x=\\"adobe' -> '<?xpacket begin=\\"\\u{feff}\\" id=\\"W5M0MpCehiHzreSzNTczkc9d\\"?>\\n<x:xmpmeta xmlns:x=\\"adobe'
+rust  crates/engine/src/project_tools.rs:1214  'xmp:CreatorTool=\\"FilmCraft\\"' -> 'xmp:CreatorTool=\\"NERDS Film\\"'
+rust  crates/engine/src/project_tools.rs:1403  'FilmCraft {}' -> 'NERDS Film {}'
+rust  crates/engine/src/settings/media_cache.rs:7  'FilmCraft Media Cache' -> 'NERDS Film Media Cache'
+rust  crates/engine/src/settings/schema.rs:340  'Changes are copied in the background a moment after each edit. If FilmCraft quits unexpect' -> 'Changes are copied in the background a moment after each edit. If NERDS Film quits unexpec'
+rust  crates/engine/src/settings/schema.rs:496  'The media cache holds render previews of unsaved projects and other files FilmCraft can re' -> 'The media cache holds render previews of unsaved projects and other files NERDS Film can r'
+rust  crates/engine/src/settings/schema.rs:522  "Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foun" -> "Hardware decoding: Auto uses the system's video decoder (VideoToolbox on macOS, Media Foun"
+rust  crates/engine/src/settings/schema.rs:531  'No plugins are installed. Changes will take effect the next time you start FilmCraft.' -> 'No plugins are installed. Changes will take effect the next time you start NERDS Film.'
+rust  crates/engine/src/shortcuts.rs:59  'FilmCraft Default' -> 'NERDS Film Default'
+rust  crates/engine/src/shortcuts.rs:1078  '{}: not a FilmCraft keyboard shortcuts file' -> '{}: not a NERDS Film keyboard shortcuts file'
+kept  crates/engine/src/voiceover.rs:407  let base = s.prefs_path.as_ref().and_then(|p| p.parent()).map(|d| d.to_path_buf()).unwrap_or_else(|| crate::temp_dir().join("FilmCraft"));
+rust  crates/export/src/format.rs:535  "{} field order: FilmCraft's encoders write progressive frames" -> "{} field order: NERDS Film's encoders write progressive frames"
+rust  crates/export/src/settings.rs:480  'FilmCraft {}' -> 'NERDS Film {}'
+rust  crates/format/src/lib.rs:73  'not a FilmCraft project: {0}' -> 'not a NERDS Film project: {0}'
+rust  crates/format/src/lib.rs:76  'this project was saved by a newer version of FilmCraft (project schema v{found}); this bui' -> 'this project was saved by a newer version of NERDS Film (project schema v{found}); this bu'
+rust  crates/format/src/lib.rs:109  'FilmCraft {}' -> 'NERDS Film {}'
+rust  crates/format/src/lib.rs:320  'FilmCraft (schema v1)' -> 'NERDS Film (schema v1)'
+rust  crates/interchange/src/aaf/read.rs:167  'FilmCraft Frame Size' -> 'NERDS Film Frame Size'
+rust  crates/interchange/src/aaf/read.rs:170  'FilmCraft Audio Sample Rate' -> 'NERDS Film Audio Sample Rate'
+rust  crates/interchange/src/aaf/read.rs:285  'FilmCraft Effect' -> 'NERDS Film Effect'
+kept  crates/interchange/src/aaf/write.rs:452  .data_prop(pid::COMPANY_NAME, utf16z("FilmCraft"))
+kept  crates/interchange/src/aaf/write.rs:453  .data_prop(pid::PRODUCT_NAME, utf16z("FilmCraft"))
+kept  crates/interchange/src/aaf/write.rs:457  .data_prop(pid::PLATFORM, utf16z("FilmCraft"))
+rust  crates/interchange/src/aaf/write.rs:614  'FilmCraft Effect' -> 'NERDS Film Effect'
+rust  crates/interchange/src/aaf/write.rs:676  'FilmCraft Frame Size' -> 'NERDS Film Frame Size'
+rust  crates/interchange/src/aaf/write.rs:677  'FilmCraft Audio Sample Rate' -> 'NERDS Film Audio Sample Rate'
+rust  crates/interchange/src/comp.rs:850  'a track longer than FilmCraft supports was cut short' -> 'a track longer than NERDS Film supports was cut short'
+rust  crates/interchange/src/fcp7.rs:1135  'generator \\"{}\\" is written with a FilmCraft effect id' -> 'generator \\"{}\\" is written with a NERDS Film effect id'
+kept  crates/interchange/src/omf/write.rs:349  w.str(ident, "OMFI:IDNT:CompanyName", "FilmCraft");
+kept  crates/interchange/src/omf/write.rs:350  w.str(ident, "OMFI:IDNT:ProductName", "FilmCraft");
+kept  crates/interchange/src/omf/write.rs:352  w.str(ident, "OMFI:IDNT:Platform", "FilmCraft");
+kept  crates/mxf/src/write.rs:356  company: "FilmCraft".into(),
+kept  crates/mxf/src/write.rs:357  product: "FilmCraft".into(),
+rust  crates/project/src/gtemplate.rs:215  "this file is a ZIP archive (an Adobe .mogrt or another application's package?): FilmCraft " -> "this file is a ZIP archive (an Adobe .mogrt or another application's package?): NERDS Film"
+rust  crates/project/src/gtemplate.rs:218  'not a FilmCraft graphics template: {0}' -> 'not a NERDS Film graphics template: {0}'
+rust  crates/project/src/gtemplate.rs:220  'this graphics template was made by a newer FilmCraft (format version {0}; this build reads' -> 'this graphics template was made by a newer NERDS Film (format version {0}; this build read'
+rust  crates/project/src/gtemplate.rs:468  'FilmCraft contributors' -> 'NERDS Film contributors'
+rust  crates/project/src/gtemplate.rs:605  'Directed by\\nJordan Lee\\n\\nWritten by\\nPriya Natarajan\\n\\nEdited by\\nMarco Bianchi\\n\\nMusi' -> 'Directed by\\nJordan Lee\\n\\nWritten by\\nPriya Natarajan\\n\\nEdited by\\nMarco Bianchi\\n\\nMusi'
+rust  crates/project/src/settings.rs:87  'FilmCraft GPU Acceleration (wgpu)' -> 'NERDS Film GPU Acceleration (wgpu)'
+rust  crates/render/src/luts.rs:79  'FilmCraft {}' -> 'NERDS Film {}'
+rust  crates/testkit/src/golden.rs:228  'asset:        {file_name}\\n\\\r\n         title:        {title}\\n\\\r\n         author:       Fi' -> 'asset:        {file_name}\\n\\\r\n         title:        {title}\\n\\\r\n         author:       NE'
+rust  crates/testkit/src/golden.rs:242  '| `{rel}` | FilmCraft contributors | Original work: golden reference rendered by FilmCraft' -> '| `{rel}` | NERDS Film contributors | Original work: golden reference rendered by NERDS Fi'
+rust  crates/tts/src/formant.rs:32  'Built into FilmCraft (project licence)' -> 'Built into NERDS Film (project licence)'
+rust  crates/ui-egui/src/app/frame.rs:209  'FilmCraft hit an error' -> 'NERDS Film hit an error'
+rust  crates/ui-egui/src/app/frame.rs:210  'FilmCraft hit an error' -> 'NERDS Film hit an error'
+rust  crates/ui-egui/src/crash.rs:71  '=== {} FilmCraft {} (unix {secs})\\n{summary}\\n{bt}\\n' -> '=== {} NERDS Film {} (unix {secs})\\n{summary}\\n{bt}\\n'
+rust  crates/ui-egui/src/links.rs:24  'FilmCraft on getartcraft.com' -> 'NERDS Film on getartcraft.com'
+rust  crates/ui-egui/src/links.rs:25  'FilmCraft on GitHub' -> 'NERDS Film on GitHub'
+rust  crates/ui-egui/src/links.rs:52  'Shows the version, community links and credits in a FilmCraft window.' -> 'Shows the version, community links and credits in a NERDS Film window.'
+rust  crates/ui-egui/src/links.rs:53  'Looks for a newer FilmCraft release and offers to update.' -> 'Looks for a newer NERDS Film release and offers to update.'
+rust  crates/ui-egui/src/menus.rs:144  'FilmCraft on getartcraft.com' -> 'NERDS Film on getartcraft.com'
+rust  crates/ui-egui/src/menus.rs:145  'FilmCraft on GitHub' -> 'NERDS Film on GitHub'
+rust  crates/ui-egui/src/menus.rs:150  'About FilmCraft' -> 'About NERDS Film'
+rust  crates/ui-egui/src/menus.rs:808  'Hide FilmCraft' -> 'Hide NERDS Film'
+rust  crates/ui-egui/src/menus.rs:808  'Quit FilmCraft' -> 'Quit NERDS Film'
+rust  crates/ui-egui/src/native_dialogs.rs:192  'FilmCraft Project' -> 'NERDS Film Project'
+rust  crates/ui-egui/src/panels/dialogs.rs:38  'About FilmCraft' -> 'About NERDS Film'
+rust  crates/ui-egui/src/panels/dialogs.rs:39  'About FilmCraft' -> 'About NERDS Film'
+rust  crates/ui-egui/src/panels/dialogs.rs:463  'FilmCraft' -> 'NERDS Film'
+rust  crates/ui-egui/src/panels/dialogs.rs:497  'FilmCraft on getartcraft.com' -> 'NERDS Film on getartcraft.com'
+rust  crates/ui-egui/src/panels/export_mode/settings.rs:23  "Not supported by FilmCraft's encoders yet" -> "Not supported by NERDS Film's encoders yet"
+rust  crates/ui-egui/src/panels/export_mode/settings.rs:58  'H.265 (HEVC) needs a hardware encoder (NVENC on NVIDIA GPUs, VideoToolbox on macOS); none ' -> 'H.265 (HEVC) needs a hardware encoder (NVENC on NVIDIA GPUs, VideoToolbox on macOS); none '
+rust  crates/ui-egui/src/panels/export_mode/settings.rs:60  'AV1 needs a hardware encoder; none was found on this machine, and FilmCraft has no softwar' -> 'AV1 needs a hardware encoder; none was found on this machine, and NERDS Film has no softwa'
+rust  crates/ui-egui/src/panels/export_mode/settings.rs:61  "Not supported by FilmCraft's encoders yet" -> "Not supported by NERDS Film's encoders yet"
+rust  crates/ui-egui/src/panels/export_mode/settings.rs:708  "Not supported by FilmCraft's encoders yet" -> "Not supported by NERDS Film's encoders yet"
+rust  crates/ui-egui/src/panels/file_dialogs.rs:56  'FilmCraft was closed while “{name}” had unsaved changes.' -> 'NERDS Film was closed while “{name}” had unsaved changes.'
+rust  crates/ui-egui/src/panels/file_dialogs.rs:58  'FilmCraft quit unexpectedly while “{name}” had unsaved changes.' -> 'NERDS Film quit unexpectedly while “{name}” had unsaved changes.'
+rust  crates/ui-egui/src/panels/graphics_templates.rs:602  'FilmCraft Graphics Template' -> 'NERDS Film Graphics Template'
+rust  crates/ui-egui/src/panels/graphics_templates.rs:692  'Saved as a FilmCraft graphics template (.fcgt) in your templates folder.' -> 'Saved as a NERDS Film graphics template (.fcgt) in your templates folder.'
+rust  crates/ui-egui/src/panels/keyboard.rs:134  'FilmCraft Help…' -> 'NERDS Film Help…'
+rust  crates/ui-egui/src/panels/keyboard.rs:135  'Quit FilmCraft' -> 'Quit NERDS Film'
+rust  crates/ui-egui/src/panels/menu_dialogs.rs:138  'FilmCraft Logs' -> 'NERDS Film Logs'
+rust  crates/ui-egui/src/panels/menu_dialogs.rs:220  'FilmCraft Project' -> 'NERDS Film Project'
+rust  crates/ui-egui/src/panels/sequence_settings.rs:38  'Not supported in FilmCraft yet' -> 'Not supported in NERDS Film yet'
+rust  crates/ui-egui/src/panels/sequence_settings.rs:39  'FilmCraft always composites in linear light' -> 'NERDS Film always composites in linear light'
+rust  crates/ui-egui/src/panels/settings.rs:762  'FilmCraft keeps the rest of the RAM free for other applications.' -> 'NERDS Film keeps the rest of the RAM free for other applications.'
+rust  crates/ui-egui/src/updates_ui.rs:99  'FilmCraft {version} is currently the newest version available.' -> 'NERDS Film {version} is currently the newest version available.'
+rust  crates/ui-egui/src/updates_ui.rs:107  'FilmCraft Updates' -> 'NERDS Film Updates'
+i18n  crates/ui-egui/src/i18n/de.tsv  (22 lines)
+i18n  crates/ui-egui/src/i18n/es.tsv  (24 lines)
+i18n  crates/ui-egui/src/i18n/fr.tsv  (25 lines)
+i18n  crates/ui-egui/src/i18n/id.tsv  (20 lines)
+i18n  crates/ui-egui/src/i18n/it.tsv  (21 lines)
+i18n  crates/ui-egui/src/i18n/ja.tsv  (23 lines)
+i18n  crates/ui-egui/src/i18n/ko.tsv  (21 lines)
+i18n  crates/ui-egui/src/i18n/pt-br.tsv  (20 lines)
+i18n  crates/ui-egui/src/i18n/ru.tsv  (5 lines)
+i18n  crates/ui-egui/src/i18n/uk.tsv  (5 lines)
+i18n  crates/ui-egui/src/i18n/zh-cn.tsv  (23 lines)
+win   packaging/windows/filmcraft.wxs  (6 lines)
+win   packaging/windows/install-policy.json  (27 lines)
+win   packaging/windows/package.ps1  (2 lines)
+mac   packaging/macos/Info.plist.in  (5 lines)
+mac   packaging/macos/dmg/generate.py  (2 lines)
+mac   packaging/macos/package.sh  (5 lines)
+brand docs/brand/artcraft-logo-white.png <- nerds-logo-for-dark-ui.png
+brand docs/brand/artcraft-logo.png <- nerds-logo-for-light-ui.png
