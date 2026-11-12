@@ -1,0 +1,489 @@
+::warning::macOS: ad-hoc signing (no MACOS_SIGN_IDENTITY); artifacts are not notarized
+==> FilmCraft 0.20.1 for macOS (universal), identity: -, notarize: 0
+[1m[92m    Updating[0m crates.io index
+[1m[92m    Updating[0m git repository `https://github.com/storytold/craft-libs`
+[1m[33mwarning[0m: patch `egui_demo_lib v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[33mwarning[0m: patch `egui_inspection v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[33mwarning[0m: patch `egui_system_font_provider v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[96mhelp[0m: Check that the patched package version and available features are compatible
+      with the dependency requirements. If the patch has a different version from
+      what is locked in the Cargo.lock file, run `cargo update` to use the new
+      version. This may also occur with an optional dependency that is not enabled.
+[1m[92m   Compiling[0m proc-macro2 v1.0.107
+[1m[92m   Compiling[0m quote v1.0.47
+[1m[92m   Compiling[0m unicode-ident v1.0.26
+[1m[92m   Compiling[0m libc v0.2.189
+[1m[92m   Compiling[0m thiserror v2.0.21
+[1m[92m   Compiling[0m serde_core v1.0.229
+[1m[92m   Compiling[0m libm v0.2.16
+[1m[92m   Compiling[0m autocfg v1.5.1
+[1m[92m   Compiling[0m num-traits v0.2.19
+[1m[92m   Compiling[0m syn v3.0.6
+[1m[92m   Compiling[0m syn v2.0.119
+[1m[92m   Compiling[0m version_check v0.9.5
+[1m[92m   Compiling[0m zerocopy v0.8.59
+[1m[92m   Compiling[0m cfg-if v1.0.5
+[1m[92m   Compiling[0m serde v1.0.229
+[1m[92m   Compiling[0m crossbeam-utils v0.8.23
+[1m[92m   Compiling[0m crossbeam-epoch v0.9.21
+[1m[92m   Compiling[0m generic-array v0.14.7
+[1m[92m   Compiling[0m crossbeam-deque v0.8.8
+[1m[92m   Compiling[0m rayon-core v1.13.0
+[1m[92m   Compiling[0m bitflags v2.13.2
+[1m[92m   Compiling[0m synstructure v0.14.0
+[1m[92m   Compiling[0m bytemuck_derive v1.12.1
+[1m[92m   Compiling[0m thiserror-impl v2.0.21
+[1m[92m   Compiling[0m zerocopy-derive v0.8.59
+[1m[92m   Compiling[0m zeroize_derive v1.5.0
+[1m[92m   Compiling[0m serde_derive v1.0.229
+[1m[92m   Compiling[0m zerofrom-derive v0.1.8
+[1m[92m   Compiling[0m yoke-derive v0.8.4
+[1m[92m   Compiling[0m bytemuck v1.25.2
+[1m[92m   Compiling[0m objc2 v0.6.5
+[1m[92m   Compiling[0m zerovec-derive v0.11.7
+[1m[92m   Compiling[0m crc32fast v1.5.2
+[1m[92m   Compiling[0m displaydoc v0.2.7
+[1m[92m   Compiling[0m zmij v1.0.23
+[1m[92m   Compiling[0m zeroize v1.9.0
+[1m[92m   Compiling[0m once_cell v1.21.4
+[1m[92m   Compiling[0m serde_json v1.0.154
+[1m[92m   Compiling[0m ppv-lite86 v0.2.21
+[1m[92m   Compiling[0m log v0.4.34
+[1m[92m   Compiling[0m either v1.18.0
+[1m[92m   Compiling[0m getrandom v0.3.4
+[1m[92m   Compiling[0m rand_core v0.9.5
+[1m[92m   Compiling[0m icu_properties_data v2.3.0
+[1m[92m   Compiling[0m smallvec v1.16.2
+[1m[92m   Compiling[0m getrandom v0.4.3
+[1m[92m   Compiling[0m icu_normalizer_data v2.3.0
+[1m[92m   Compiling[0m rand_chacha v0.9.0
+[1m[92m   Compiling[0m cfg_aliases v0.2.2
+[1m[92m   Compiling[0m rand v0.9.5
+[1m[92m   Compiling[0m rand_distr v0.5.1
+[1m[92m   Compiling[0m half v2.7.1
+[1m[92m   Compiling[0m objc2-encode v4.1.0
+[1m[92m   Compiling[0m typenum v1.20.1
+[1m[92m   Compiling[0m rustversion v1.0.23
+[1m[92m   Compiling[0m arrayvec v0.7.8
+[1m[92m   Compiling[0m rayon v1.12.0
+[1m[92m   Compiling[0m encoding_rs v0.8.42
+[1m[92m   Compiling[0m zerofrom v0.1.8
+[1m[92m   Compiling[0m subtle v2.6.1
+[1m[92m   Compiling[0m parking_lot_core v0.9.12
+[1m[92m   Compiling[0m yoke v0.8.3
+[1m[92m   Compiling[0m crypto-common v0.1.7
+[1m[92m   Compiling[0m foldhash v0.2.0
+[1m[92m   Compiling[0m multiversion_no_op v1.0.0
+[1m[92m   Compiling[0m thiserror-impl v1.0.69
+[1m[92m   Compiling[0m pulp v0.22.3
+[1m[92m   Compiling[0m hashbrown v0.17.1
+[1m[92m   Compiling[0m zerovec v0.11.8
+[1m[92m   Compiling[0m scopeguard v1.2.0
+[1m[92m   Compiling[0m enum-as-inner v0.6.1
+[1m[92m   Compiling[0m block2 v0.6.2
+[1m[92m   Compiling[0m writeable v0.6.4
+[1m[92m   Compiling[0m find-msvc-tools v0.1.14
+[1m[92m   Compiling[0m shlex v2.0.1
+[1m[92m   Compiling[0m dispatch2 v0.3.1
+[1m[92m   Compiling[0m cc v1.5.1
+[1m[92m   Compiling[0m simd-adler32 v0.3.10
+[1m[92m   Compiling[0m objc2-core-foundation v0.3.2
+[1m[92m   Compiling[0m ring v0.17.14
+[1m[92m   Compiling[0m litemap v0.8.3
+[1m[92m   Compiling[0m getrandom v0.2.17
+[1m[92m   Compiling[0m adler2 v2.0.1
+[1m[92m   Compiling[0m bitflags v1.3.2
+[1m[92m   Compiling[0m memchr v2.8.3
+[1m[92m   Compiling[0m tinystr v0.8.4
+[1m[92m   Compiling[0m cobs v0.3.0
+[1m[92m   Compiling[0m core-foundation-sys v0.8.7
+[1m[92m   Compiling[0m postcard v1.1.3
+[1m[92m   Compiling[0m icu_locale_core v2.3.0
+[1m[92m   Compiling[0m miniz_oxide v0.9.1
+[1m[92m   Compiling[0m zerotrie v0.2.5
+[1m[92m   Compiling[0m objc-sys v0.3.5
+[1m[92m   Compiling[0m icu_provider v2.3.1
+[1m[92m   Compiling[0m flate2 v1.1.10
+[1m[92m   Compiling[0m objc2-foundation v0.3.2
+[1m[92m   Compiling[0m naga v30.0.1
+[1m[92m   Compiling[0m itoa v1.0.18
+[1m[92m   Compiling[0m equivalent v1.0.2
+[1m[92m   Compiling[0m miniz_oxide v0.8.9
+[1m[92m   Compiling[0m fdeflate v0.3.7
+[1m[92m   Compiling[0m potential_utf v0.1.6
+[1m[92m   Compiling[0m block-buffer v0.10.4
+[1m[92m   Compiling[0m zune-core v0.5.3
+[1m[92m   Compiling[0m quick-error v2.0.1
+[1m[92m   Compiling[0m weezl v0.1.12
+[1m[92m   Compiling[0m zune-jpeg v0.5.15
+[1m[92m   Compiling[0m digest v0.10.7
+[1m[92m   Compiling[0m png v0.18.1
+[1m[92m   Compiling[0m ahash v0.8.12
+[1m[92m   Compiling[0m pxfm v0.1.30
+[1m[92m   Compiling[0m byteorder-lite v0.1.0
+[1m[92m   Compiling[0m fax v0.2.7
+[1m[92m   Compiling[0m color_quant v1.1.0
+[1m[92m   Compiling[0m filmcraft-text v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/text)
+[1m[92m   Compiling[0m unicode-general-category v1.1.0
+[1m[92m   Compiling[0m rustls v0.23.46
+[1m[92m   Compiling[0m gif v0.14.2
+[1m[92m   Compiling[0m moxcms v0.8.1
+[1m[92m   Compiling[0m image-webp v0.2.4
+[1m[92m   Compiling[0m tiff v0.11.3
+[1m[92m   Compiling[0m indexmap v2.14.2
+[1m[92m   Compiling[0m rand_core v0.6.4
+[1m[92m   Compiling[0m utf8_iter v1.0.4
+[1m[92m   Compiling[0m cpufeatures v0.2.17
+[1m[92m   Compiling[0m icu_collections v2.3.0
+[1m[92m   Compiling[0m image v0.25.10
+[1m[92m   Compiling[0m objc2-core-graphics v0.3.2
+[1m[92m   Compiling[0m wgpu-hal v30.0.1
+[1m[92m   Compiling[0m font-types v0.12.5
+[1m[92m   Compiling[0m tracing-attributes v0.1.31
+[1m[92m   Compiling[0m httparse v1.10.1
+[1m[92m   Compiling[0m rustix v1.1.5
+[1m[92m   Compiling[0m read-fonts v0.41.0
+[1m[92m   Compiling[0m utf16_iter v1.0.5
+[1m[92m   Compiling[0m write16 v1.0.0
+[1m[92m   Compiling[0m icu_normalizer v2.3.0
+[1m[92m   Compiling[0m icu_properties v2.3.0
+[1m[92m   Compiling[0m der v0.7.10
+[1m[92m   Compiling[0m symphonia-core v0.5.5
+[1m[92m   Compiling[0m filmcraft-color v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/color)
+[1m[92m   Compiling[0m craft-media v0.1.0 (https://github.com/storytold/craft-libs?rev=b72cb4d68ca09cf067f144afc1f13abe1e82e1ed#b72cb4d6)
+[1m[92m   Compiling[0m unicode-bidi v0.3.18
+[1m[92m   Compiling[0m harfrust v0.12.0
+[1m[92m   Compiling[0m skrifa v0.44.0
+[1m[92m   Compiling[0m spki v0.7.3
+[1m[92m   Compiling[0m unicode-segmentation v1.13.3
+[1m[92m   Compiling[0m percent-encoding v2.3.2
+[1m[92m   Compiling[0m pkcs5 v0.7.1
+[1m[92m   Compiling[0m wgpu-core v30.0.1
+[1m[92m   Compiling[0m filmcraft-time v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/time)
+[1m[92m   Compiling[0m foreign-types-macros v0.2.4
+[1m[92m   Compiling[0m simdutf8 v0.1.5
+[1m[92m   Compiling[0m core_detect v1.0.0
+[1m[92m   Compiling[0m filmcraft-frame v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/frame)
+[1m[92m   Compiling[0m pkcs8 v0.10.2
+[1m[92m   Compiling[0m idna_adapter v1.2.2
+[1m[92m   Compiling[0m filmcraft-dng v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/dng)
+[1m[92m   Compiling[0m lock_api v0.4.14
+[1m[92m   Compiling[0m litrs v1.0.0
+[1m[92m   Compiling[0m document-features v0.2.12
+[1m[92m   Compiling[0m filmcraft-media v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/media)
+[1m[92m   Compiling[0m thiserror v1.0.69
+[1m[92m   Compiling[0m parking_lot v0.12.5
+[1m[92m   Compiling[0m idna v1.1.0
+[1m[92m   Compiling[0m symphonia-metadata v0.5.5
+[1m[92m   Compiling[0m form_urlencoded v1.2.2
+[1m[92m   Compiling[0m filmcraft-bitstream v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/bitstream)
+[1m[92m   Compiling[0m uuid v1.26.1
+[1m[92m   Compiling[0m objc2-metal v0.3.2
+[1m[92m   Compiling[0m winit v0.30.13 (https://github.com/storytold/winit.git?rev=a517b3846ee8457d84ee4975110bfda6797c44dc#a517b384)
+[1m[92m   Compiling[0m wgpu v30.0.1
+[1m[92m   Compiling[0m num-complex v0.4.6
+[1m[92m   Compiling[0m raw-cpuid v11.6.0
+[1m[92m   Compiling[0m raw-window-handle v0.6.2
+[1m[92m   Compiling[0m pin-project-lite v0.2.17
+[1m[92m   Compiling[0m profiling v1.0.18
+[1m[92m   Compiling[0m icu_locale_fallback_data v2.3.0
+[1m[92m   Compiling[0m sysctl v0.6.0
+[1m[92m   Compiling[0m url v2.5.8
+[1m[92m   Compiling[0m dyn-stack v0.13.2
+[1m[92m   Compiling[0m filmcraft-geom v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/geom)
+[1m[92m   Compiling[0m filmcraft-project v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/project)
+[1m[92m   Compiling[0m gemm-common v0.19.0
+[1m[92m   Compiling[0m hmac v0.12.1
+[1m[92m   Compiling[0m iana-time-zone v0.1.65
+[1m[92m   Compiling[0m polycool v0.4.0
+[1m[92m   Compiling[0m untrusted v0.9.0
+[1m[92m   Compiling[0m rustc-hash v1.1.0
+[1m[92m   Compiling[0m naga-types v30.0.1
+[1m[92m   Compiling[0m kurbo v0.13.1
+[1m[92m   Compiling[0m chrono v0.4.45
+[1m[92m   Compiling[0m symphonia-utils-xiph v0.5.5
+[1m[92m   Compiling[0m sha2 v0.10.9
+[1m[92m   Compiling[0m ff v0.13.1
+[1m[92m   Compiling[0m signature v2.2.0
+[1m[92m   Compiling[0m inout v0.1.4
+[1m[92m   Compiling[0m rustls-pki-types v1.15.1
+[1m[92m   Compiling[0m euclid v0.22.14
+[1m[92m   Compiling[0m color v0.3.3
+[1m[92m   Compiling[0m unicode-width v0.2.2
+[1m[92m   Compiling[0m bit-vec v0.9.1
+[1m[92m   Compiling[0m bytes v1.12.1
+[1m[92m   Compiling[0m linebender_resource_handle v0.1.1
+[1m[92m   Compiling[0m peniko v0.6.1
+[1m[92m   Compiling[0m bit-set v0.10.0
+[1m[92m   Compiling[0m codespan-reporting v0.13.1
+[1m[92m   Compiling[0m sec1 v0.7.3
+[1m[92m   Compiling[0m guillotiere v0.7.0
+[1m[92m   Compiling[0m cipher v0.4.4
+[1m[92m   Compiling[0m group v0.13.0
+[1m[92m   Compiling[0m hkdf v0.12.4
+[1m[92m   Compiling[0m accesskit v0.25.2
+[1m[92m   Compiling[0m crypto-bigint v0.5.5
+[1m[92m   Compiling[0m universal-hash v0.5.1
+[1m[92m   Compiling[0m futures-macro v0.3.34
+[1m[92m   Compiling[0m fearless_simd v0.4.1
+[1m[92m   Compiling[0m static_assertions v1.1.0
+[1m[92m   Compiling[0m ref-cast v1.0.27
+[1m[92m   Compiling[0m wgpu-types v30.0.1
+[1m[92m   Compiling[0m vello_common v0.2.0
+[1m[92m   Compiling[0m elliptic-curve v0.13.8
+[1m[92m   Compiling[0m rustls-webpki v0.103.15
+[1m[92m   Compiling[0m objc2 v0.5.2
+[1m[92m   Compiling[0m objc2-quartz-core v0.3.2
+[1m[92m   Compiling[0m roxmltree v0.21.1
+[1m[92m   Compiling[0m tracing-core v0.1.36
+[1m[92m   Compiling[0m emath v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m unicode-linebreak v0.1.5
+[1m[92m   Compiling[0m web-time v1.1.0
+[1m[92m   Compiling[0m ecolor v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m tracing v0.1.44
+[1m[92m   Compiling[0m raw-window-metal v1.1.0
+[1m[92m   Compiling[0m wgpu-naga-bridge v30.0.1
+[1m[92m   Compiling[0m block2 v0.5.1
+[1m[92m   Compiling[0m vello_cpu v0.2.0
+[1m[92m   Compiling[0m rfc6979 v0.4.0
+[1m[92m   Compiling[0m gemm-f32 v0.19.0
+[1m[92m   Compiling[0m rand_chacha v0.3.1
+[1m[92m   Compiling[0m core-foundation v0.10.1
+[1m[92m   Compiling[0m security-framework-sys v2.17.0
+[1m[92m   Compiling[0m num-integer v0.1.47
+[1m[92m   Compiling[0m curve25519-dalek-derive v0.1.1
+[1m[92m   Compiling[0m tokio-macros v2.7.2
+[1m[92m   Compiling[0m ref-cast-impl v1.0.27
+[1m[92m   Compiling[0m libloading v0.8.9
+[1m[92m   Compiling[0m errno v0.3.14
+[1m[92m   Compiling[0m strsim v0.11.1
+[1m[92m   Compiling[0m base64 v0.23.1
+[1m[92m   Compiling[0m unicode-properties v0.1.4
+[1m[92m   Compiling[0m self_cell v1.3.0
+[1m[92m   Compiling[0m extended v0.1.0
+[1m[92m   Compiling[0m nohash-hasher v0.2.0
+[1m[92m   Compiling[0m epaint_default_fonts v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m filmcraft-audio-dsp v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/audio-dsp)
+[1m[92m   Compiling[0m dispatch v0.2.0
+[1m[92m   Compiling[0m ident_case v1.0.1
+[1m[92m   Compiling[0m epaint v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m darling_core v0.24.1
+[1m[92m   Compiling[0m objc2-foundation v0.2.2
+[1m[92m   Compiling[0m symphonia-format-riff v0.5.5
+[1m[92m   Compiling[0m hashbrown v0.16.1
+[1m[92m   Compiling[0m curve25519-dalek v4.1.3
+[1m[92m   Compiling[0m num-iter v0.1.46
+[1m[92m   Compiling[0m security-framework v3.7.0
+[1m[92m   Compiling[0m rand v0.8.8
+[1m[92m   Compiling[0m gemm-f16 v0.19.0
+[1m[92m   Compiling[0m ecdsa v0.16.9
+[1m[92m   Compiling[0m filmcraft-captions v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/captions)
+[1m[92m   Compiling[0m primeorder v0.13.6
+[1m[92m   Compiling[0m polyval v0.6.2
+[1m[92m   Compiling[0m http v1.5.0
+[1m[92m   Compiling[0m symphonia-codec-vorbis v0.5.5
+[1m[92m   Compiling[0m symphonia-format-ogg v0.5.5
+[1m[92m   Compiling[0m symphonia-format-isomp4 v0.5.5
+[1m[92m   Compiling[0m symphonia-bundle-flac v0.5.5
+[1m[92m   Compiling[0m gemm-c64 v0.19.0
+[1m[92m   Compiling[0m gemm-f64 v0.19.0
+[1m[92m   Compiling[0m gemm-c32 v0.19.0
+[1m[92m   Compiling[0m symphonia-bundle-mp3 v0.5.5
+[1m[92m   Compiling[0m symphonia-codec-aac v0.5.5
+[1m[92m   Compiling[0m symphonia-codec-alac v0.5.5
+[1m[92m   Compiling[0m symphonia-codec-pcm v0.5.5
+[1m[92m   Compiling[0m core-foundation v0.9.4
+[1m[92m   Compiling[0m objc2-core-audio-types v0.3.2
+[1m[92m   Compiling[0m aead v0.5.2
+[1m[92m   Compiling[0m itertools v0.15.0
+[1m[92m   Compiling[0m serde_derive_internals v0.30.0
+[1m[92m   Compiling[0m fastrand v2.5.0
+[1m[92m   Compiling[0m foreign-types-shared v0.3.1
+[1m[92m   Compiling[0m winnow v1.0.4
+[1m[92m   Compiling[0m foreign-types v0.5.0
+[1m[92m   Compiling[0m zip v7.2.0
+[1m[92m   Compiling[0m egui v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m toml_parser v1.1.3+spec-1.1.0
+[1m[92m   Compiling[0m tempfile v3.27.0
+[1m[92m   Compiling[0m schemars_derive v1.2.3
+[1m[92m   Compiling[0m objc2-core-audio v0.3.2
+[1m[92m   Compiling[0m core-graphics-types v0.1.3
+[1m[92m   Compiling[0m symphonia v0.5.5
+[1m[92m   Compiling[0m num-bigint-dig v0.8.6
+[1m[92m   Compiling[0m gemm v0.19.0
+[1m[92m   Compiling[0m ureq-proto v0.6.5
+[1m[92m   Compiling[0m filmcraft-render v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/render)
+[1m[92m   Compiling[0m ghash v0.5.1
+[1m[92m   Compiling[0m rustls-platform-verifier v0.7.1
+[1m[92m   Compiling[0m wgpu-core-deps-apple v30.0.1
+[1m[92m   Compiling[0m safetensors v0.7.0
+[1m[92m   Compiling[0m objc2-app-kit v0.2.2
+[1m[92m   Compiling[0m darling_macro v0.24.1
+[1m[92m   Compiling[0m poly1305 v0.8.0
+[1m[92m   Compiling[0m aes v0.8.4
+[1m[92m   Compiling[0m ctr v0.9.2
+[1m[92m   Compiling[0m chacha20 v0.9.1
+[1m[92m   Compiling[0m ed25519 v2.2.3
+[1m[92m   Compiling[0m filmcraft-mxf v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/mxf)
+[1m[92m   Compiling[0m filmcraft-apv v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/apv)
+[1m[92m   Compiling[0m filmcraft-h264 v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/h264)
+[1m[92m   Compiling[0m filmcraft-vp9 v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/vp9)
+[1m[92m   Compiling[0m filmcraft-hevc v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/hevc)
+[1m[92m   Compiling[0m filmcraft-dnx v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/dnx)
+[1m[92m   Compiling[0m filmcraft-prores v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/prores)
+[1m[92m   Compiling[0m pkcs1 v0.7.5
+[1m[92m   Compiling[0m serde_spanned v1.1.1
+[1m[92m   Compiling[0m toml_datetime v1.1.1+spec-1.1.0
+[1m[92m   Compiling[0m craft-audio v0.1.0 (https://github.com/storytold/craft-libs?rev=b72cb4d68ca09cf067f144afc1f13abe1e82e1ed#b72cb4d6)
+[1m[92m   Compiling[0m filmcraft-isobmff v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/isobmff)
+[1m[92m   Compiling[0m filmcraft-matroska v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/matroska)
+[1m[92m   Compiling[0m objc2-app-kit v0.3.2
+[1m[92m   Compiling[0m filmcraft-mpeg2v v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/mpeg2v)
+[1m[92m   Compiling[0m filmcraft-av1 v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/av1)
+[1m[92m   Compiling[0m memmap2 v0.9.11
+[1m[92m   Compiling[0m float8 v0.6.1
+[1m[92m   Compiling[0m filmcraft-mpegts v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/mpegts)
+[1m[92m   Compiling[0m filmcraft-vp8 v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/vp8)
+[1m[92m   Compiling[0m enum-map-derive v1.0.1
+[1m[92m   Compiling[0m num_cpus v1.17.0
+[1m[92m   Compiling[0m futures-core v0.3.34
+[1m[92m   Compiling[0m toml_writer v1.1.2+spec-1.1.0
+[1m[92m   Compiling[0m futures-sink v0.3.34
+[1m[92m   Compiling[0m filmcraft-avi v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/avi)
+[1m[92m   Compiling[0m dpi v0.1.2
+[1m[92m   Compiling[0m rmcp v3.6.0
+[1m[92m   Compiling[0m utf8-zero v0.8.1
+[1m[92m   Compiling[0m filmcraft-codecs v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/codecs)
+[1m[92m   Compiling[0m ureq v3.5.0
+[1m[92m   Compiling[0m toml v1.1.6+spec-1.1.0
+[1m[92m   Compiling[0m candle-core v0.9.2
+[1m[92m   Compiling[0m rsa v0.9.10
+[1m[92m   Compiling[0m ed25519-dalek v2.2.0
+[1m[92m   Compiling[0m aes-gcm v0.10.3
+[1m[92m   Compiling[0m chacha20poly1305 v0.10.1
+[1m[92m   Compiling[0m darling v0.24.1
+[1m[92m   Compiling[0m core-graphics v0.23.2
+[1m[92m   Compiling[0m p384 v0.13.1
+[1m[92m   Compiling[0m p256 v0.13.2
+[1m[92m   Compiling[0m x25519-dalek v2.0.1
+[1m[92m   Compiling[0m rustls-webpki v0.102.8
+[1m[92m   Compiling[0m filmcraft-h264enc v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/h264enc)
+[1m[92m   Compiling[0m filmcraft-mp3enc v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/mp3enc)
+[1m[92m   Compiling[0m cursor-icon v1.2.0
+[1m[92m   Compiling[0m smol_str v0.2.2
+[1m[92m   Compiling[0m filmcraft-export v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/export)
+[1m[92m   Compiling[0m rustls-rustcrypto v0.0.2-alpha
+[1m[92m   Compiling[0m rmcp-macros v3.7.0
+[1m[92m   Compiling[0m candle-nn v0.9.2
+[1m[92m   Compiling[0m filmcraft-ui-egui v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/ui-egui)
+[1m[92m   Compiling[0m futures-channel v0.3.34
+[1m[92m   Compiling[0m accesskit_consumer v0.39.2
+[1m[92m   Compiling[0m fixed_decimal v0.7.3
+[1m[92m   Compiling[0m filmcraft-tts-text v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/tts-text)
+[1m[92m   Compiling[0m cpal v0.16.0
+[1m[92m   Compiling[0m futures-io v0.3.34
+[1m[92m   Compiling[0m filmcraft-cfb v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/cfb)
+[1m[92m   Compiling[0m rfd v0.17.2
+[1m[92m   Compiling[0m futures-task v0.3.34
+[1m[92m   Compiling[0m pastey v0.2.3
+[1m[92m   Compiling[0m muda v0.21.2
+[1m[92m   Compiling[0m slab v0.4.12
+[1m[92m   Compiling[0m filmcraft-interchange v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/interchange)
+[1m[92m   Compiling[0m futures-util v0.3.34
+[1m[92m   Compiling[0m filmcraft-tts v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/tts)
+[1m[92m   Compiling[0m accesskit_macos v0.27.2
+[1m[92m   Compiling[0m filmcraft-speech v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/speech)
+[1m[92m   Compiling[0m icu_locale_fallback v2.3.0
+[1m[92m   Compiling[0m filmcraft-format v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/format)
+[1m[92m   Compiling[0m filmcraft-edit v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/edit)
+[1m[92m   Compiling[0m objc2-core-video v0.3.2
+[1m[92m   Compiling[0m filmcraft-scopes v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/scopes)
+[1m[92m   Compiling[0m mio v1.2.3
+[1m[92m   Compiling[0m socket2 v0.6.5
+[1m[92m   Compiling[0m rustc-hash v2.1.3
+[1m[92m   Compiling[0m deranged v0.5.9
+[1m[92m   Compiling[0m time-core v0.1.9
+[1m[92m   Compiling[0m num-conv v0.2.2
+[1m[92m   Compiling[0m craft-docpath v0.1.0 (https://github.com/storytold/craft-libs?rev=b72cb4d68ca09cf067f144afc1f13abe1e82e1ed#b72cb4d6)
+[1m[92m   Compiling[0m powerfmt v0.2.1
+[1m[92m   Compiling[0m pollster v1.0.1
+[1m[92m   Compiling[0m time v0.3.55
+[1m[92m   Compiling[0m type-map v0.5.1
+[1m[92m   Compiling[0m filmcraft-engine v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/engine)
+[1m[92m   Compiling[0m tokio v1.54.1
+[1m[92m   Compiling[0m objc2-core-media v0.3.2
+[1m[92m   Compiling[0m icu_provider_adapters v2.3.0
+[1m[92m   Compiling[0m accesskit_winit v0.34.1
+[1m[92m   Compiling[0m futures-executor v0.3.34
+[1m[92m   Compiling[0m icu_decimal v2.3.0
+[1m[92m   Compiling[0m icu_plurals v2.3.0
+[1m[92m   Compiling[0m arboard v3.7.0
+[1m[92m   Compiling[0m icu_provider_blob v2.3.0
+[1m[92m   Compiling[0m quick-xml v0.42.0
+[1m[92m   Compiling[0m filetime v0.2.29
+[1m[92m   Compiling[0m sys-locale v0.3.2
+[1m[92m   Compiling[0m dyn-clone v1.0.20
+[1m[92m   Compiling[0m filmcraft v0.20.1 (/Users/runner/work/nerds-film/nerds-film/apps/filmcraft)
+[1m[92m   Compiling[0m schemars v1.2.3
+[1m[92m   Compiling[0m craft-i18n v0.1.0 (https://github.com/storytold/craft-libs?rev=b72cb4d68ca09cf067f144afc1f13abe1e82e1ed#b72cb4d6)
+[1m[92m   Compiling[0m tar v0.4.46
+[1m[92m   Compiling[0m plist v1.10.3
+[1m[92m   Compiling[0m egui-winit v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m futures v0.3.34
+[1m[92m   Compiling[0m objc2-video-toolbox v0.3.2
+[1m[92m   Compiling[0m tokio-util v0.7.19
+[1m[92m   Compiling[0m egui-wgpu v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m filmcraft-gpu v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/gpu)
+[1m[92m   Compiling[0m enum-map v3.1.0
+[1m[92m   Compiling[0m objc2-audio-toolbox v0.3.2
+[1m[92m   Compiling[0m semver v1.0.28
+[1m[92m   Compiling[0m craft-fonts-build v0.1.0 (https://github.com/storytold/craft-libs?rev=b72cb4d68ca09cf067f144afc1f13abe1e82e1ed#b72cb4d6)
+[1m[92m   Compiling[0m craft-ui v0.1.0 (https://github.com/storytold/craft-libs?rev=b72cb4d68ca09cf067f144afc1f13abe1e82e1ed#b72cb4d6)
+[1m[92m   Compiling[0m craft-update v0.1.0 (https://github.com/storytold/craft-libs?rev=b72cb4d68ca09cf067f144afc1f13abe1e82e1ed#b72cb4d6)
+[1m[92m   Compiling[0m coreaudio-rs v0.13.0
+[1m[92m   Compiling[0m egui_extras v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m eframe v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m filmcraft-platform v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/platform)
+[1m[92m   Compiling[0m crossbeam-channel v0.5.17
+[1m[92m   Compiling[0m keyboard-types v0.8.3
+[1m[92m   Compiling[0m mach2 v0.4.3
+[1m[92m   Compiling[0m dasp_sample v0.11.0
+[1m[92m   Compiling[0m filmcraft-automation v0.20.1 (/Users/runner/work/nerds-film/nerds-film/crates/automation)
+[1m[92m   Compiling[0m open v5.4.5
+[1m[92m   Compiling[0m filmcraft-cli v0.20.1 (/Users/runner/work/nerds-film/nerds-film/apps/filmcraft-cli)
+[1m[92m    Finished[0m `release` profile [optimized] target(s) in 20m 16s
+Architectures in the fat file: /Users/runner/work/nerds-film/nerds-film/target/macos-package/bin/filmcraft are: x86_64 arm64 
+Architectures in the fat file: /Users/runner/work/nerds-film/nerds-film/target/macos-package/bin/filmcraft-cli are: x86_64 arm64 
+==> assembling /Users/runner/work/nerds-film/nerds-film/target/macos-package/NERDS Film.app
+/Users/runner/work/nerds-film/nerds-film/target/macos-package/NERDS Film.app/Contents/Info.plist: OK
+/Users/runner/work/nerds-film/nerds-film/target/macos-package/NERDS Film.app/Contents/MacOS/FilmCraft: replacing existing signature
+/Users/runner/work/nerds-film/nerds-film/target/macos-package/NERDS Film.app: replacing existing signature
+/Users/runner/work/nerds-film/nerds-film/target/macos-package/NERDS Film.app: valid on disk
+/Users/runner/work/nerds-film/nerds-film/target/macos-package/NERDS Film.app: satisfies its Designated Requirement
+==> building /Users/runner/work/nerds-film/nerds-film/dist/release/filmcraft-0.20.1-macos-universal.dmg
+Creating hybrid image...
+
+Preparing imaging engine…
+Reading Driver Descriptor Map (DDM : 0)…
+   (CRC32 $E52405F6: Driver Descriptor Map (DDM : 0))
+Reading Apple (Apple_partition_map : 1)…
+   (CRC32 $21F1605E: Apple (Apple_partition_map : 1))
+Reading DiscRecording 9.0.3d5 (Apple_HFS : 2)…
+   (CRC32 $443374B3: DiscRecording 9.0.3d5 (Apple_HFS : 2))
+Adding resources…
+Elapsed Time:  5.231s
+File size: 117905630 bytes, Checksum: CRC32 $CD01D8A4
+Sectors processed: 447344, 447341 compressed
+Speed: 41.7MB/s
+Savings: 48.5%
+created: /Users/runner/work/nerds-film/nerds-film/dist/release/filmcraft-0.20.1-macos-universal.dmg
+/Users/runner/work/nerds-film/nerds-film/dist/release/filmcraft-0.20.1-macos-universal.dmg: valid on disk
+/Users/runner/work/nerds-film/nerds-film/dist/release/filmcraft-0.20.1-macos-universal.dmg: satisfies its Designated Requirement
+==> building /Users/runner/work/nerds-film/nerds-film/dist/release/filmcraft-cli-0.20.1-macos-universal.zip
+/Users/runner/work/nerds-film/nerds-film/target/macos-package/filmcraft-cli-0.20.1-macos-universal/filmcraft-cli: replacing existing signature
+/Users/runner/work/nerds-film/nerds-film/target/macos-package/filmcraft-cli-0.20.1-macos-universal/filmcraft-cli: valid on disk
+/Users/runner/work/nerds-film/nerds-film/target/macos-package/filmcraft-cli-0.20.1-macos-universal/filmcraft-cli: satisfies its Designated Requirement
+filmcraft-cli 0.20.1
+==> done
+-rw-r--r--@ 1 runner  staff   112M Nov 12 07:36 /Users/runner/work/nerds-film/nerds-film/dist/release/filmcraft-0.20.1-macos-universal.dmg
+-rw-r--r--  1 runner  staff    95M Nov 12 07:36 /Users/runner/work/nerds-film/nerds-film/dist/release/filmcraft-cli-0.20.1-macos-universal.zip
